@@ -1,0 +1,38 @@
+.logo,
+.logo * {
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 139px;
+  position: relative;
+}
+.logo .logo-wrap {
+  flex-shrink: 0;
+  width: 139px;
+  height: 32px;
+  position: relative;
+}
+.logo .logomark-instance {
+  width: 23.02% !important;
+  height: 100% !important;
+  position: absolute !important;
+  right: 76.98% !important;
+  left: 0% !important;
+  bottom: 0% !important;
+  top: 0% !important;
+}
+.logo .logotype {
+  width: 69.78%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 30.22%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}

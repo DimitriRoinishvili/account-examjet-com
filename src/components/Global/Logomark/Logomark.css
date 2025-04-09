@@ -1,0 +1,68 @@
+.logomark,
+.logomark * {
+  box-sizing: border-box;
+}
+.logomark {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.logomark .content {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(10, 13, 18, 0.2) 100%
+    ),
+    linear-gradient(to left, #ffffff, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgba(10, 13, 18, 0.12);
+  border-width: 0.2px;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.06),
+    0px 1px 3px 0px rgba(10, 13, 18, 0.1),
+    0px 1px 1px -0.5px rgba(10, 13, 18, 0.13),
+    inset 0px -0.5px 0.5px 0px rgba(10, 13, 18, 0.1);
+  overflow: hidden;
+}
+.logomark .grid {
+  opacity: 0.14;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.logomark .palantir {
+  border-radius: 999px;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  right: 25%;
+  left: 25%;
+  bottom: 25%;
+  top: 25%;
+  overflow: visible;
+}
+.logomark .blur {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0px 0px 8px 8px;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 50%;
+  overflow: hidden;
+  backdrop-filter: blur(2.5px);
+}

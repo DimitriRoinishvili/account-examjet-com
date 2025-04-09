@@ -1,0 +1,38 @@
+.buttons-button-size-lg-hierarchy-link-color-icon-default-state-default,
+.buttons-button-size-lg-hierarchy-link-color-icon-default-state-default * {
+  box-sizing: border-box;
+}
+.buttons-button-size-lg-hierarchy-link-color-icon-default-state-default {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-sm, 6px);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.buttons-button-size-lg-hierarchy-link-color-icon-default-state-default .text {
+  color: var(
+    --component-colors-components-buttons-tertiary-color-button-tertiary-color-fg,
+    #6941c6
+  );
+  text-align: left;
+  font-family: var(
+    --text-md-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-md-semibold-font-size, 16px);
+  line-height: var(--text-md-semibold-line-height, 24px);
+  font-weight: var(--text-md-semibold-font-weight, 600);
+  position: relative;
+}
+
+/* nested override styles */
+
+.buttons-button-size-lg-hierarchy-link-color-icon-default-state-default
+  .placeholder-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}

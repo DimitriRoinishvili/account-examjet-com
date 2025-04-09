@@ -1,0 +1,68 @@
+.buttons-button-size-xl-hierarchy-secondary-gray-icon-default-state-default,
+.buttons-button-size-xl-hierarchy-secondary-gray-icon-default-state-default * {
+  box-sizing: border-box;
+}
+.buttons-button-size-xl-hierarchy-secondary-gray-icon-default-state-default {
+  background: var(
+    --component-colors-components-buttons-secondary-button-secondary-bg,
+    #ffffff
+  );
+  border-radius: var(--radius-md, 8px);
+  border-style: solid;
+  border-color: var(
+    --component-colors-components-buttons-secondary-button-secondary-border,
+    #d5d7da
+  );
+  border-width: 1px;
+  padding: var(--spacing-lg, 12px) 18px var(--spacing-lg, 12px) 18px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-sm, 6px);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: var(
+    --shadows-shadow-xs-skeuomorphic-box-shadow,
+    0px 1px 2px 0px rgba(10, 13, 18, 0.05),
+    inset 0px -2px 0px 0px rgba(10, 13, 18, 0.05),
+    inset 0px 0px 0px 1px rgba(10, 13, 18, 0.18)
+  );
+  overflow: hidden;
+}
+.buttons-button-size-xl-hierarchy-secondary-gray-icon-default-state-default
+  .text-padding {
+  padding: 0px var(--spacing-xxs, 2px) 0px var(--spacing-xxs, 2px);
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.buttons-button-size-xl-hierarchy-secondary-gray-icon-default-state-default
+  .text {
+  color: var(
+    --component-colors-components-buttons-secondary-button-secondary-fg,
+    #414651
+  );
+  text-align: left;
+  font-family: var(
+    --text-md-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-md-semibold-font-size, 16px);
+  line-height: var(--text-md-semibold-line-height, 24px);
+  font-weight: var(--text-md-semibold-font-weight, 600);
+  position: relative;
+}
+
+/* nested override styles */
+
+.buttons-button-size-xl-hierarchy-secondary-gray-icon-default-state-default
+  .placeholder-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}

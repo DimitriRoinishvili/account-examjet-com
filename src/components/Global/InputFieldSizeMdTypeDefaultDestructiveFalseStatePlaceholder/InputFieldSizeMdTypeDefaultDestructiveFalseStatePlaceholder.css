@@ -1,0 +1,112 @@
+.input-field-size-md-type-default-destructive-false-state-placeholder,
+.input-field-size-md-type-default-destructive-false-state-placeholder * {
+  box-sizing: border-box;
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm, 6px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 320px;
+  position: relative;
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder
+  .input-with-label {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm, 6px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder
+  .label-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xxs, 2px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder .label {
+  color: var(--colors-text-text-secondary-700, #414651);
+  text-align: left;
+  font-family: var(--text-sm-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--text-sm-medium-font-size, 14px);
+  line-height: var(--text-sm-medium-line-height, 20px);
+  font-weight: var(--text-sm-medium-font-weight, 500);
+  position: relative;
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder
+  .asterisk {
+  color: var(--colors-text-text-brand-tertiary-600, #7f56d9);
+  text-align: left;
+  font-family: var(--text-sm-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--text-sm-medium-font-size, 14px);
+  line-height: var(--text-sm-medium-line-height, 20px);
+  font-weight: var(--text-sm-medium-font-weight, 500);
+  position: relative;
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder .input {
+  background: var(--colors-background-bg-primary, #ffffff);
+  border-radius: var(--radius-md, 8px);
+  border-style: solid;
+  border-color: var(--colors-border-border-primary, #d5d7da);
+  border-width: 1px;
+  padding: 10px 14px 10px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-md, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: var(
+    --shadows-shadow-xs-box-shadow,
+    0px 1px 2px 0px rgba(10, 13, 18, 0.05)
+  );
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder .content {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-md, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder .text {
+  color: var(--colors-text-text-placeholder, #717680);
+  text-align: left;
+  font-family: var(--text-md-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-md-regular-font-size, 16px);
+  line-height: var(--text-md-regular-line-height, 24px);
+  font-weight: var(--text-md-regular-font-weight, 400);
+  position: relative;
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder
+  .help-icon-instance {
+  flex-shrink: 0 !important;
+}
+.input-field-size-md-type-default-destructive-false-state-placeholder
+  .hint-text {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: left;
+  font-family: var(--text-sm-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-sm-regular-font-size, 14px);
+  line-height: var(--text-sm-regular-line-height, 20px);
+  font-weight: var(--text-sm-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+
+/* nested override styles */

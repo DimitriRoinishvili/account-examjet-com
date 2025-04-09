@@ -1,0 +1,29 @@
+.badge-size-md-type-pill-color-icon-false-color-gray,
+.badge-size-md-type-pill-color-icon-false-color-gray * {
+  box-sizing: border-box;
+}
+.badge-size-md-type-pill-color-icon-false-color-gray {
+  background: var(--component-colors-utility-gray-utility-gray-50, #fafafa);
+  border-radius: var(--radius-full, 9999px);
+  border-style: solid;
+  border-color: var(--component-colors-utility-gray-utility-gray-200, #e9eaeb);
+  border-width: 1px;
+  padding: var(--spacing-xxs, 2px) 10px var(--spacing-xxs, 2px) 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.badge-size-md-type-pill-color-icon-false-color-gray .text {
+  color: var(--component-colors-utility-gray-utility-gray-700, #414651);
+  text-align: center;
+  font-family: var(--text-sm-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--text-sm-medium-font-size, 14px);
+  line-height: var(--text-sm-medium-line-height, 20px);
+  font-weight: var(--text-sm-medium-font-weight, 500);
+  position: relative;
+}
+
+/* nested override styles */

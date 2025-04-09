@@ -1,0 +1,10 @@
+.mail-01,
+.mail-01 * {
+  box-sizing: border-box;
+}
+.mail-01 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}

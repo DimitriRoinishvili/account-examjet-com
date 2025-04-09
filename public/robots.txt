@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://studydrome.com/
+
+# Sitemaps
+Sitemap: https://studydrome.com/sitemap.xml

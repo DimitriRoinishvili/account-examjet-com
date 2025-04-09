@@ -1,0 +1,11 @@
+.placeholder,
+.placeholder * {
+  box-sizing: border-box;
+}
+.placeholder {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}

@@ -1,0 +1,111 @@
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop,
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop * {
+  box-sizing: border-box;
+}
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop {
+  background: var(--colors-background-bg-primary, #ffffff);
+  padding: var(--spacing-9xl, 96px) 0px var(--spacing-9xl, 96px) 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop .container {
+  padding: 0px var(--container-padding-desktop, 32px) 0px
+    var(--container-padding-desktop, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--container-max-width-desktop, 1280px);
+  position: relative;
+}
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop .content {
+  background: var(--colors-background-bg-secondary, #fafafa);
+  border-radius: var(--radius-2xl, 16px);
+  padding: var(--spacing-7xl, 64px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop
+  .heading-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: var(--width-sm, 480px);
+  max-width: var(--width-xl, 768px);
+  position: relative;
+}
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop .heading {
+  color: var(--colors-text-text-primary-900, #181d27);
+  text-align: left;
+  font-family: var(
+    --display-sm-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--display-sm-semibold-font-size, 30px);
+  line-height: var(--display-sm-semibold-line-height, 38px);
+  font-weight: var(--display-sm-semibold-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop
+  .supporting-text {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: left;
+  font-family: var(--text-xl-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-xl-regular-font-size, 20px);
+  line-height: var(--text-xl-regular-line-height, 30px);
+  font-weight: var(--text-xl-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop .actions {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-lg, 12px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop
+  .buttons-button-instance {
+  flex-shrink: 0 !important;
+}
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop
+  .buttons-button-instance2 {
+  border-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+  flex-shrink: 0 !important;
+}
+
+/* nested override styles */
+
+.cta-section-type-card-hortizontal-theme-default-breakpoint-desktop
+  .placeholder-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}

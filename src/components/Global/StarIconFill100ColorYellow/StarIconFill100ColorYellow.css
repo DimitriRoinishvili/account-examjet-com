@@ -1,0 +1,29 @@
+.star-icon-fill-100-color-yellow,
+.star-icon-fill-100-color-yellow * {
+  box-sizing: border-box;
+}
+.star-icon-fill-100-color-yellow {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.star-icon-fill-100-color-yellow .star-background {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: -2.5%;
+  top: 2.5%;
+  overflow: visible;
+}
+.star-icon-fill-100-color-yellow .star {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}

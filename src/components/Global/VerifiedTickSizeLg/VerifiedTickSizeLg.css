@@ -1,0 +1,11 @@
+.verified-tick-size-lg,
+.verified-tick-size-lg * {
+  box-sizing: border-box;
+}
+.verified-tick-size-lg {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}

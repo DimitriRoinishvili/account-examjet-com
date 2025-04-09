@@ -1,0 +1,25 @@
+.footer-link-badge-false-color-brand-theme-light-state-default,
+.footer-link-badge-false-color-brand-theme-light-state-default * {
+  box-sizing: border-box;
+}
+.footer-link-badge-false-color-brand-theme-light-state-default {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-md, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.footer-link-badge-false-color-brand-theme-light-state-default
+  .buttons-button-instance {
+  flex-shrink: 0 !important;
+}
+
+/* nested override styles */
+
+.footer-link-badge-false-color-brand-theme-light-state-default
+  .placeholder-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}

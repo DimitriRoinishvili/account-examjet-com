@@ -1,0 +1,11 @@
+// export const BASE_PATH = '/studydrome-website';
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || 'https://studydrome.com/';
+export const POSTS_PER_PAGE = 9;
+export const FORMSPREE_CONTACT_URL = "https://formspree.io/f/meoajkdp";
+export const FORMSPREE_NEWSLETTER_URL = "https://formspree.io/f/xblgryej";
+export const STUDYDROME_LINKEDIN_URL = "https://www.linkedin.com/company/studydrome/";
+export const STUDYDROME_FACEBOOK_URL = "https://www.facebook.com/studydrome";
+export const STUDYDROME_INSTAGRAM_URL = "https://www.instagram.com/studydrome/";
+export const PAGE_SUFFIX = "StudyDrome";
+// export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-X0BSH1DHWL';
+export const GA_TRACKING_ID = 'G-X0BSH1DHWL';

@@ -1,0 +1,23 @@
+.horizontal-tabs-type-button-border-size-md-full-width-false-breakpoint-desktop,
+.horizontal-tabs-type-button-border-size-md-full-width-false-breakpoint-desktop
+  * {
+  box-sizing: border-box;
+}
+.horizontal-tabs-type-button-border-size-md-full-width-false-breakpoint-desktop {
+  background: var(--colors-background-bg-secondaryalt, #fafafa);
+  border-radius: var(--radius-xl, 12px);
+  border-style: solid;
+  border-color: var(--colors-border-border-secondary, #e9eaeb);
+  border-width: 1px;
+  padding: var(--spacing-sm, 6px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xs, 4px);
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.horizontal-tabs-type-button-border-size-md-full-width-false-breakpoint-desktop
+  .tab-button-base-instance {
+  flex-shrink: 0 !important;
+}

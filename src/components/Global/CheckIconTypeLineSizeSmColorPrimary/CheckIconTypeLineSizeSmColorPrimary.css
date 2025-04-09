@@ -1,0 +1,20 @@
+.check-icon-type-line-size-sm-color-primary,
+.check-icon-type-line-size-sm-color-primary * {
+  box-sizing: border-box;
+}
+.check-icon-type-line-size-sm-color-primary {
+  border-radius: var(--radius-full, 9999px);
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.check-icon-type-line-size-sm-color-primary .check-circle-instance {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+  right: 0% !important;
+  left: 0% !important;
+  bottom: 0% !important;
+  top: 0% !important;
+}

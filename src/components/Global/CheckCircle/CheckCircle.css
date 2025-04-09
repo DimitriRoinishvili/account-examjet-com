@@ -1,0 +1,10 @@
+.check-circle,
+.check-circle * {
+  box-sizing: border-box;
+}
+.check-circle {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}

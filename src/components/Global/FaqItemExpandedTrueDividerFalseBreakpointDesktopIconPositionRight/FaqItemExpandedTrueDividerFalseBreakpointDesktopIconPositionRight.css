@@ -1,0 +1,71 @@
+.faq-item-expanded-true-divider-false-breakpoint-desktop-icon-position-right,
+.faq-item-expanded-true-divider-false-breakpoint-desktop-icon-position-right * {
+  box-sizing: border-box;
+}
+.faq-item-expanded-true-divider-false-breakpoint-desktop-icon-position-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 320px;
+  position: relative;
+}
+.faq-item-expanded-true-divider-false-breakpoint-desktop-icon-position-right
+  .content {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-3xl, 24px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.faq-item-expanded-true-divider-false-breakpoint-desktop-icon-position-right
+  .text-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md, 8px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.faq-item-expanded-true-divider-false-breakpoint-desktop-icon-position-right
+  .text {
+  color: var(--colors-text-text-primary-900, #181d27);
+  text-align: left;
+  font-family: var(--text-lg-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--text-lg-medium-font-size, 18px);
+  line-height: var(--text-lg-medium-line-height, 28px);
+  font-weight: var(--text-lg-medium-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.faq-item-expanded-true-divider-false-breakpoint-desktop-icon-position-right
+  .supporting-text {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: left;
+  font-family: var(--text-md-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-md-regular-font-size, 16px);
+  line-height: var(--text-md-regular-line-height, 24px);
+  font-weight: var(--text-md-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.faq-item-expanded-true-divider-false-breakpoint-desktop-icon-position-right
+  .icon-wrap {
+  padding: var(--spacing-xxs, 2px) 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.faq-item-expanded-true-divider-false-breakpoint-desktop-icon-position-right
+  .minus-circle-instance {
+  flex-shrink: 0 !important;
+}

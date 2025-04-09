@@ -1,1 +1,9 @@
-# account-examjet-com
+## Test locally
+```
+- npm run dev
+```
+
+## Build locally
+```
+npm run build
+```

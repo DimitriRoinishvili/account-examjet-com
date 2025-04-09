@@ -1,0 +1,228 @@
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop,
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop * {
+  box-sizing: border-box;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop {
+  background: var(--colors-background-bg-primary, #ffffff);
+  padding: var(--spacing-9xl, 96px) 0px var(--spacing-9xl, 96px) 0px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-7xl, 64px);
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop .container {
+  padding: 0px var(--container-padding-desktop, 32px) 0px
+    var(--container-padding-desktop, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--container-max-width-desktop, 1280px);
+  position: relative;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop .content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .heading-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl, 20px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--width-xl, 768px);
+  position: relative;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop .heading {
+  color: var(--colors-text-text-primary-900, #181d27);
+  text-align: center;
+  font-family: var(
+    --display-md-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--display-md-semibold-font-size, 36px);
+  line-height: var(--display-md-semibold-line-height, 44px);
+  letter-spacing: var(--display-md-semibold-letter-spacing, -0.02em);
+  font-weight: var(--display-md-semibold-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .supporting-text {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: center;
+  font-family: var(--text-xl-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-xl-regular-font-size, 20px);
+  line-height: var(--text-xl-regular-line-height, 30px);
+  font-weight: var(--text-xl-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop .container2 {
+  padding: 0px var(--container-padding-desktop, 32px) 0px
+    var(--container-padding-desktop, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-7xl, 64px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--container-max-width-desktop, 1280px);
+  position: relative;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop .content2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--width-xl, 768px);
+  position: relative;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .faq-item-instance {
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop .content3 {
+  background: var(--colors-background-bg-secondary, #fafafa);
+  border-radius: var(--spacing-xl, 16px);
+  padding: var(--spacing-4xl, 32px) var(--spacing-4xl, 32px)
+    var(--spacing-5xl, 40px) var(--spacing-4xl, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop .avatar-group {
+  flex-shrink: 0;
+  width: 120px;
+  height: 56px;
+  position: relative;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .avatar-instance {
+  background: var(
+    --avatar-user-square-marco-kelly-color-background,
+    linear-gradient(to left, #e3c6d1, #e3c6d1)
+  ) !important;
+  border-style: solid !important;
+  border-color: var(--colors-foreground-fg-white, #ffffff) !important;
+  border-width: 1.5px !important;
+  position: absolute !important;
+  left: 0px !important;
+  top: 8px !important;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .avatar-instance2 {
+  background: var(
+    --avatar-user-square-jaya-willis-color-background,
+    linear-gradient(to left, #c6d0cb, #c6d0cb)
+  ) !important;
+  border-style: solid !important;
+  border-color: var(--colors-foreground-fg-white, #ffffff) !important;
+  border-width: 1.5px !important;
+  position: absolute !important;
+  left: 72px !important;
+  top: 8px !important;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .avatar-instance3 {
+  background: var(
+    --avatar-user-square-amelie-laurent-color-background,
+    linear-gradient(to left, #ddc0ce, #ddc0ce)
+  ) !important;
+  border-style: solid !important;
+  border-color: var(--colors-foreground-fg-white, #ffffff) !important;
+  border-width: 1.5px !important;
+  position: absolute !important;
+  left: 32px !important;
+  top: 0px !important;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .heading-and-supporting-text2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md, 8px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--width-xl, 768px);
+  position: relative;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop .heading2 {
+  color: var(--colors-text-text-primary-900, #181d27);
+  text-align: center;
+  font-family: var(
+    --text-xl-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-xl-semibold-font-size, 20px);
+  line-height: var(--text-xl-semibold-line-height, 30px);
+  font-weight: var(--text-xl-semibold-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .supporting-text2 {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: center;
+  font-family: var(--text-lg-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-lg-regular-font-size, 18px);
+  line-height: var(--text-lg-regular-line-height, 28px);
+  font-weight: var(--text-lg-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop .actions {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-lg, 12px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .buttons-button-instance {
+  border-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+  flex-shrink: 0 !important;
+}
+
+/* nested override styles */
+
+.faq-section-type-accordion-01-theme-default-breakpoint-desktop
+  .placeholder-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}

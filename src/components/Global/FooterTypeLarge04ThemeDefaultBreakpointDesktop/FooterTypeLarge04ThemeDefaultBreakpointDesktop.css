@@ -1,0 +1,205 @@
+.footer-type-large-04-theme-default-breakpoint-desktop,
+.footer-type-large-04-theme-default-breakpoint-desktop * {
+  box-sizing: border-box;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop {
+  background: var(--colors-background-bg-primary, #ffffff);
+  padding: var(--spacing-7xl, 64px) 0px var(--spacing-6xl, 48px) 0px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-7xl, 64px);
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .container {
+  padding: 0px var(--container-padding-desktop, 32px) 0px
+    var(--container-padding-desktop, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6xl, 48px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--container-max-width-desktop, 1280px);
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .content {
+  display: flex;
+  flex-direction: row;
+  row-gap: var(--spacing-6xl, 48px);
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop
+  .logo-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: var(--width-xxs, 320px);
+  max-width: var(--width-xxs, 320px);
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .logo-instance {
+  flex-shrink: 0 !important;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .supporting-text {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: left;
+  font-family: var(--text-md-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-md-regular-font-size, 16px);
+  line-height: var(--text-md-regular-line-height, 24px);
+  font-weight: var(--text-md-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .links-and-newsletter {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: var(--width-lg, 640px);
+  max-width: 712px;
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .links {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 320px;
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop
+  .footer-links-column-instance {
+  flex: 1 !important;
+  width: unset !important;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 360px;
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .heading {
+  color: var(--colors-text-text-primary-900, #181d27);
+  text-align: left;
+  font-family: var(
+    --text-sm-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-sm-semibold-font-size, 14px);
+  line-height: var(--text-sm-semibold-line-height, 20px);
+  font-weight: var(--text-sm-semibold-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .email-capture {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xl, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .input-field-instance {
+  flex: 1 !important;
+  width: unset !important;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop
+  .buttons-button-instance {
+  border-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+  flex-shrink: 0 !important;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .container2 {
+  padding: 0px var(--container-padding-desktop, 32px) 0px
+    var(--container-padding-desktop, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--container-max-width-desktop, 1280px);
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .content2 {
+  border-style: solid;
+  border-color: var(--colors-border-border-secondary, #e9eaeb);
+  border-width: 1px 0px 0px 0px;
+  padding: var(--spacing-4xl, 32px) 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  row-gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .footer-text {
+  color: var(--colors-text-text-quaternary-500, #717680);
+  text-align: left;
+  font-family: var(--text-md-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-md-regular-font-size, 16px);
+  line-height: var(--text-md-regular-line-height, 24px);
+  font-weight: var(--text-md-regular-font-weight, 400);
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xl, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .footer-link {
+  color: var(--colors-text-text-quaternary-500, #717680);
+  text-align: left;
+  font-family: var(--text-md-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-md-regular-font-size, 16px);
+  line-height: var(--text-md-regular-line-height, 24px);
+  font-weight: var(--text-md-regular-font-weight, 400);
+  position: relative;
+}
+
+/* nested override styles */
+
+.footer-type-large-04-theme-default-breakpoint-desktop .footer-link-instance {
+  flex-shrink: 0 !important;
+}
+.footer-type-large-04-theme-default-breakpoint-desktop .placeholder-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}

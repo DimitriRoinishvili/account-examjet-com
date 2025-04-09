@@ -1,0 +1,10 @@
+.help-circle,
+.help-circle * {
+  box-sizing: border-box;
+}
+.help-circle {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}

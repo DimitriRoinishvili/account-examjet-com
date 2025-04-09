@@ -1,0 +1,112 @@
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop,
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop
+  * {
+  box-sizing: border-box;
+}
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop {
+  background: var(--colors-background-bg-primary, #ffffff);
+  padding: var(--spacing-9xl, 96px) 0px var(--spacing-9xl, 96px) 0px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-7xl, 64px);
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop
+  .container {
+  padding: 0px var(--container-padding-desktop, 32px) 0px
+    var(--container-padding-desktop, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--container-max-width-desktop, 1280px);
+  position: relative;
+}
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop
+  .content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-6xl, 48px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop
+  .heading-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3xl, 24px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--width-xl, 768px);
+  position: relative;
+}
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop
+  .heading-and-subheading {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg, 12px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop
+  .subheading {
+  color: var(--colors-text-text-brand-secondary-700, #6941c6);
+  text-align: center;
+  font-family: var(
+    --text-md-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-md-semibold-font-size, 16px);
+  line-height: var(--text-md-semibold-line-height, 24px);
+  font-weight: var(--text-md-semibold-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop
+  .heading {
+  color: var(--colors-text-text-primary-900, #181d27);
+  text-align: center;
+  font-family: var(
+    --display-lg-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--display-lg-semibold-font-size, 48px);
+  line-height: var(--display-lg-semibold-line-height, 60px);
+  letter-spacing: var(--display-lg-semibold-letter-spacing, -0.02em);
+  font-weight: var(--display-lg-semibold-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop
+  .supporting-text {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: center;
+  font-family: var(--text-xl-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-xl-regular-font-size, 20px);
+  line-height: var(--text-xl-regular-line-height, 30px);
+  font-weight: var(--text-xl-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.header-section-alignment-center-actions-tabs-color-default-breakpoint-desktop
+  .horizontal-tabs-instance {
+  border-radius: var(--spacing-md, 8px) !important;
+  gap: var(--spacing-md, 8px) !important;
+  flex-shrink: 0 !important;
+}

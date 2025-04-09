@@ -1,0 +1,121 @@
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop,
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  * {
+  box-sizing: border-box;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop {
+  height: 76px;
+  position: relative;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .header {
+  padding: var(--spacing-lg, 12px) 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .container {
+  padding: 0px var(--container-padding-desktop, 32px) 0px
+    var(--container-padding-desktop, 32px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--container-max-width-desktop, 1280px);
+  position: relative;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .nav-wrapper {
+  background: var(--colors-background-bg-primary, #ffffff);
+  border-radius: var(--radius-2xl, 16px);
+  border-style: solid;
+  border-color: var(--colors-border-border-secondary, #e9eaeb);
+  border-width: 1px;
+  padding: var(--spacing-lg, 12px) var(--spacing-lg, 12px)
+    var(--spacing-lg, 12px) var(--spacing-xl, 16px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
+  box-shadow: var(
+    --shadows-shadow-xs-box-shadow,
+    0px 1px 2px 0px rgba(10, 13, 18, 0.05)
+  );
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .content {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4xl, 32px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .logo-instance {
+  flex-shrink: 0 !important;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .navigation {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-2xl, 20px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .dropdown-header-navigation-trigger-instance {
+  flex-shrink: 0 !important;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .buttons-button-instance {
+  gap: var(--spacing-xs, 4px) !important;
+  flex-shrink: 0 !important;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .navigation-actions-instance {
+  flex-shrink: 0 !important;
+  position: relative !important;
+}
+
+/* nested override styles */
+
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .placeholder-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .chevron-down-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .buttons-button-instance2 {
+  flex-shrink: 0 !important;
+}
+.dropdown-header-navigation-open-false-mobile-subnav-open-false-type-floating-featured-card-breakpoint-desktop
+  .buttons-button-instance3 {
+  border-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+  flex-shrink: 0 !important;
+}

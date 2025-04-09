@@ -1,0 +1,35 @@
+.check-item-text-type-line-size-sm-color-primary-breakpoint-desktop,
+.check-item-text-type-line-size-sm-color-primary-breakpoint-desktop * {
+  box-sizing: border-box;
+}
+.check-item-text-type-line-size-sm-color-primary-breakpoint-desktop {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-lg, 12px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.check-item-text-type-line-size-sm-color-primary-breakpoint-desktop
+  .check-icon-instance {
+  flex-shrink: 0 !important;
+}
+.check-item-text-type-line-size-sm-color-primary-breakpoint-desktop .text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.check-item-text-type-line-size-sm-color-primary-breakpoint-desktop .text {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: left;
+  font-family: var(--text-md-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-md-regular-font-size, 16px);
+  line-height: var(--text-md-regular-line-height, 24px);
+  font-weight: var(--text-md-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}

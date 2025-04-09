@@ -1,0 +1,27 @@
+.avatar-size-lg-placeholder-false-text-false-status-icon-false,
+.avatar-size-lg-placeholder-false-text-false-status-icon-false * {
+  box-sizing: border-box;
+}
+.avatar-size-lg-placeholder-false-text-false-status-icon-false {
+  background: var(--avatar-user-square-olivia-rhye, undefined);
+  border-radius: var(--radius-full, 9999px);
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.avatar-size-lg-placeholder-false-text-false-status-icon-false
+  .contrast-border {
+  border-radius: var(--radius-full, 9999px);
+  border-style: solid;
+  border-color: var(
+    --component-colors-components-avatars-avatar-contrast-border,
+    rgba(0, 0, 0, 0.08)
+  );
+  border-width: 0.75px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: hidden;
+}

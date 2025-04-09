@@ -1,0 +1,33 @@
+.navigation-actions-logged-in-false-breakpoint-desktop,
+.navigation-actions-logged-in-false-breakpoint-desktop * {
+  box-sizing: border-box;
+}
+.navigation-actions-logged-in-false-breakpoint-desktop {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-lg, 12px);
+  align-items: center;
+  justify-content: flex-start;
+  position: sticky;
+}
+.navigation-actions-logged-in-false-breakpoint-desktop
+  .buttons-button-instance {
+  flex-shrink: 0 !important;
+}
+.navigation-actions-logged-in-false-breakpoint-desktop
+  .buttons-button-instance2 {
+  border-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.12) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ) !important;
+  flex-shrink: 0 !important;
+}
+
+/* nested override styles */
+
+.navigation-actions-logged-in-false-breakpoint-desktop .placeholder-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}

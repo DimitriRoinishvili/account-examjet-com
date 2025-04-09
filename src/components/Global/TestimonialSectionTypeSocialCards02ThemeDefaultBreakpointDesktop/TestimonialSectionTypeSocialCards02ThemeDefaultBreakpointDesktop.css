@@ -1,0 +1,287 @@
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop,
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop * {
+  box-sizing: border-box;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop {
+  background: var(--colors-background-bg-primary, #ffffff);
+  padding: var(--spacing-9xl, 96px) 0px var(--spacing-9xl, 96px) 0px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-7xl, 64px);
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .container {
+  padding: 0px var(--container-padding-desktop, 32px) 0px
+    var(--container-padding-desktop, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--container-max-width-desktop, 1280px);
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .heading-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl, 20px);
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: var(--width-xl, 768px);
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .heading {
+  color: var(--colors-text-text-primary-900, #181d27);
+  text-align: center;
+  font-family: var(
+    --display-md-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--display-md-semibold-font-size, 36px);
+  line-height: var(--display-md-semibold-line-height, 44px);
+  letter-spacing: var(--display-md-semibold-letter-spacing, -0.02em);
+  font-weight: var(--display-md-semibold-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .supporting-text {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: center;
+  font-family: var(--text-xl-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--text-xl-regular-font-size, 20px);
+  line-height: var(--text-xl-regular-line-height, 30px);
+  font-weight: var(--text-xl-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .content2 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-5xl, 40px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .cards {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-3xl, 24px);
+  row-gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .card {
+  background: var(--colors-background-bg-secondary, #fafafa);
+  border-radius: var(--radius-xl, 12px);
+  padding: var(--spacing-4xl, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 360px;
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .stars-and-quote {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .stars {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xs, 4px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .star-icon-instance {
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .quote {
+  color: var(--colors-text-text-primary-900, #181d27);
+  text-align: left;
+  font-family: var(--text-md-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--text-md-medium-font-size, 16px);
+  line-height: var(--text-md-medium-line-height, 24px);
+  font-weight: var(--text-md-medium-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .avatar-and-text {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-lg, 12px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .avatar-instance {
+  background: var(
+    --avatar-user-square-sienna-hewitt-color-background,
+    linear-gradient(to left, #e9dcbb, #e9dcbb)
+  ) !important;
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .text-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .text-and-verified-tick {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xs, 4px);
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .text {
+  color: var(--colors-text-text-primary-900, #181d27);
+  text-align: left;
+  font-family: var(
+    --text-md-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-md-semibold-font-size, 16px);
+  line-height: var(--text-md-semibold-line-height, 24px);
+  font-weight: var(--text-md-semibold-font-weight, 600);
+  position: relative;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .verified-tick-instance {
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .supporting-text2 {
+  color: var(--colors-text-text-tertiary-600, #535862);
+  text-align: left;
+  font-family: var(
+    --text-md-regular-underlined-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: var(--text-md-regular-underlined-font-size, 16px);
+  line-height: var(--text-md-regular-underlined-line-height, 24px);
+  font-weight: var(--text-md-regular-underlined-font-weight, 400);
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .avatar-instance2 {
+  background: var(
+    --avatar-user-square-kari-rasmussen-color-background,
+    linear-gradient(to left, #c7d1b0, #c7d1b0)
+  ) !important;
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .verified-tick-instance2 {
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .avatar-instance3 {
+  background: var(
+    --avatar-user-square-amelie-laurent-color-background,
+    linear-gradient(to left, #ddc0ce, #ddc0ce)
+  ) !important;
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .verified-tick-instance3 {
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .avatar-instance4 {
+  background: var(
+    --avatar-user-square-aliah-lane-color-background,
+    linear-gradient(to left, #cfcbdc, #cfcbdc)
+  ) !important;
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .verified-tick-instance4 {
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .avatar-instance5 {
+  background: var(
+    --avatar-user-square-eduard-franz-color-background,
+    linear-gradient(to left, #e5ddce, #e5ddce)
+  ) !important;
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .verified-tick-instance5 {
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .avatar-instance6 {
+  background: var(
+    --avatar-user-square-lily-rose-chedjou-color-background,
+    linear-gradient(to left, #e5ddce, #e5ddce)
+  ) !important;
+  flex-shrink: 0 !important;
+}
+.testimonial-section-type-social-cards-02-theme-default-breakpoint-desktop
+  .verified-tick-instance6 {
+  flex-shrink: 0 !important;
+}

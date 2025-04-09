@@ -1,0 +1,36 @@
+.tab-button-base-current-false-size-md-type-button-white-state-default,
+.tab-button-base-current-false-size-md-type-button-white-state-default * {
+  box-sizing: border-box;
+}
+.tab-button-base-current-false-size-md-type-button-white-state-default {
+  border-radius: var(--radius-sm, 6px);
+  padding: var(--spacing-md, 8px) var(--spacing-lg, 12px) var(--spacing-md, 8px)
+    var(--spacing-lg, 12px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-md, 8px);
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  position: relative;
+  overflow: hidden;
+}
+.tab-button-base-current-false-size-md-type-button-white-state-default .text {
+  color: var(--colors-text-text-quaternary-500, #717680);
+  text-align: left;
+  font-family: var(
+    --text-md-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-md-semibold-font-size, 16px);
+  line-height: var(--text-md-semibold-line-height, 24px);
+  font-weight: var(--text-md-semibold-font-weight, 600);
+  position: relative;
+}
+.tab-button-base-current-false-size-md-type-button-white-state-default
+  .badge-instance {
+  flex-shrink: 0 !important;
+}
+
+/* nested override styles */

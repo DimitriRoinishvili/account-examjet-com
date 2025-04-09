@@ -1,0 +1,11 @@
+.plus-circle,
+.plus-circle * {
+  box-sizing: border-box;
+}
+.plus-circle {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}

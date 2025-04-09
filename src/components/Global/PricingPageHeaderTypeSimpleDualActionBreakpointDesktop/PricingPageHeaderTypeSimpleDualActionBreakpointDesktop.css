@@ -1,0 +1,100 @@
+:root {
+  --spacing-7xl: 64px;
+  --spacing-9xl: 96px;
+  --container-padding-desktop: 32px;
+}
+
+.pricing-page-header-type-simple-dual-action-breakpoint-desktop,
+.pricing-page-header-type-simple-dual-action-breakpoint-desktop * {
+  box-sizing: border-box;
+}
+
+.pricing-page-header-type-simple-dual-action-breakpoint-desktop {
+  background: var(--colors-background-bg-primary, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-page-header-type-simple-dual-action-breakpoint-desktop
+.header-section-instance {
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+}
+
+.pricing-page-header-type-simple-dual-action-breakpoint-desktop .section {
+  padding: 0px 0px var(--spacing-9xl, 96px) 0px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-7xl, 64px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.pricing-page-header-type-simple-dual-action-breakpoint-desktop .container {
+  padding: 0px var(--container-padding-desktop, 32px) 0px
+  var(--container-padding-desktop, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-7xl, 64px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-shrink: 0;
+  max-width: 1280px;
+  position: relative;
+}
+
+.pricing-page-header-type-simple-dual-action-breakpoint-desktop .content {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4xl, 32px);
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.pricing-page-header-type-simple-dual-action-breakpoint-desktop
+.pricing-tier-card-instance {
+  flex: 1 !important;
+}
+
+.pricing-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .pricing-page-header-type-simple-dual-action-breakpoint-desktop .container {
+    padding: 0 20px;
+  }
+
+  .pricing-page-header-type-simple-dual-action-breakpoint-desktop .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Stretch each pricing tier card to fill full available width */
+  .pricing-page-header-type-simple-dual-action-breakpoint-desktop .pricing-tier-card-instance {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .pricing-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+  }
+}

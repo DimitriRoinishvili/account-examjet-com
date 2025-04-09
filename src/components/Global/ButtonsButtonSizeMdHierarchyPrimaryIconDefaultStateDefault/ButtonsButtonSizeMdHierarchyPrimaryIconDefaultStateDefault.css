@@ -1,0 +1,72 @@
+.buttons-button-size-md-hierarchy-primary-icon-default-state-default,
+.buttons-button-size-md-hierarchy-primary-icon-default-state-default * {
+  box-sizing: border-box;
+}
+.buttons-button-size-md-hierarchy-primary-icon-default-state-default {
+  background: var(
+    --component-colors-components-buttons-primary-button-primary-bg,
+    #7f56d9
+  );
+  border-radius: var(--radius-md, 8px);
+  border-width: 2px;
+  border-style: solid;
+  border-image: var(
+    --gradient-skeuemorphic-gradient-border,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
+  border-image-slice: 1;
+  padding: 10px 14px 10px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-xs, 4px);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: var(
+    --shadows-shadow-xs-skeuomorphic-box-shadow,
+    0px 1px 2px 0px rgba(10, 13, 18, 0.05),
+    inset 0px -2px 0px 0px rgba(10, 13, 18, 0.05),
+    inset 0px 0px 0px 1px rgba(10, 13, 18, 0.18)
+  );
+  overflow: hidden;
+}
+.buttons-button-size-md-hierarchy-primary-icon-default-state-default
+  .text-padding {
+  padding: 0px var(--spacing-xxs, 2px) 0px var(--spacing-xxs, 2px);
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.buttons-button-size-md-hierarchy-primary-icon-default-state-default .text {
+  color: var(
+    --component-colors-components-buttons-primary-button-primary-fg,
+    #ffffff
+  );
+  text-align: left;
+  font-family: var(
+    --text-sm-semibold-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: var(--text-sm-semibold-font-size, 14px);
+  line-height: var(--text-sm-semibold-line-height, 20px);
+  font-weight: var(--text-sm-semibold-font-weight, 600);
+  position: relative;
+}
+
+/* nested override styles */
+
+.buttons-button-size-md-hierarchy-primary-icon-default-state-default
+  .placeholder-instance {
+  flex-shrink: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+}

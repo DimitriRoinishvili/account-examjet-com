@@ -1,0 +1,42 @@
+.desktop,
+.desktop * {
+  box-sizing: border-box;
+}
+.desktop {
+  background: var(--colors-background-bg-primary, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.desktop .dropdown-header-navigation-instance {
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+}
+.desktop .pricing-page-header-instance {
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+}
+.desktop .faq-section-instance {
+  padding: 0px 0px var(--spacing-9xl, 96px) 0px !important;
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+}
+.desktop .testimonial-section-instance {
+  padding: 0px 0px var(--spacing-9xl, 96px) 0px !important;
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+}
+.desktop .cta-section-instance {
+  padding: 0px 0px var(--spacing-9xl, 96px) 0px !important;
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+}
+.desktop .footer-instance {
+  background: var(--colors-background-bg-primary, #0c0e12) !important;
+  align-self: stretch !important;
+  flex-shrink: 0 !important;
+}
